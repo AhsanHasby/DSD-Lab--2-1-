@@ -1,0 +1,130 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAddSub
+Z0 !s110 1760850728
+!i10b 1
+!s100 ;NImPL@l9U>7j:I?ZgdJH3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>BMZnbX?nPA4Q7WKOC_1C0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/qaosa/OneDrive/Desktop/Verilog HDL
+Z4 w1760850727
+Z5 8C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/RippleAdder.v
+Z6 FC:/Users/qaosa/OneDrive/Desktop/Verilog HDL/RippleAdder.v
+!i122 17
+L0 13 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1760850728.000000
+!s107 C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/RippleAdder.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/RippleAdder.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@add@sub
+vFullAdder
+R0
+!i10b 1
+!s100 =U8<LUh:STC0UM]3WGjng1
+R1
+I7J7@;_mg[GD6jU5:7Q7PB0
+R2
+R3
+Z12 w1760850298
+Z13 8C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/HalfAdder.v
+Z14 FC:/Users/qaosa/OneDrive/Desktop/Verilog HDL/HalfAdder.v
+!i122 16
+L0 8 8
+R7
+r1
+!s85 0
+31
+R8
+Z15 !s107 C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/HalfAdder.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/HalfAdder.v|
+!i113 1
+R10
+R11
+n@full@adder
+vHalfAdder
+R0
+!i10b 1
+!s100 g@WJCzCZ4CEKli2i^3gmE0
+R1
+IED7B2[oUo3Z_F?ZK`iBdP0
+R2
+R3
+R12
+R13
+R14
+!i122 16
+L0 1 6
+R7
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 1
+R10
+R11
+n@half@adder
+vRippleAdder
+R0
+!i10b 1
+!s100 lcgl^61Q>0mHegDYLXEQD1
+R1
+I8;32Sg1MROh86jIlb5OlM3
+R2
+R3
+R4
+R5
+R6
+!i122 17
+L0 1 11
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 C:/Users/qaosa/OneDrive/Desktop/Verilog HDL/RippleAdder.v|
+R9
+!i113 1
+R10
+R11
+n@ripple@adder
+vsimulate
+R0
+!i10b 1
+!s100 lRD@z3FAlii@IP9Fb`?[91
+R1
+IBZe>ij<^kGD9JjT?I2an90
+R2
+R3
+R4
+R5
+R6
+!i122 17
+L0 27 15
+R7
+r1
+!s85 0
+31
+R8
+R17
+R9
+!i113 1
+R10
+R11
