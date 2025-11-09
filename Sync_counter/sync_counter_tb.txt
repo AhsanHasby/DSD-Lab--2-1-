@@ -1,0 +1,30 @@
+`include "syn_counter.v"
+module syn_counter_tb();
+//Declare input as reg and output as wire 
+reg clock,reset,enable;
+wire[3:0] counter_out;
+//initialize all variables 
+initial begin 
+ 	$display("time\t clk reset enable counter");
+	$monitor("%g\t %b %b   %b %b" , $time,clock,reset,enable,counter_out);
+
+	clock = 1;
+	reset = 0;
+	enable = 0;
+
+	#5 reset = 1; // apply reset 
+	#10 reset = 0; // deactivate reset
+	#5 enable = 1; //enable counting
+	#100 enable = 0; //stop counting 
+	#10 $finish; //end simulation
+end
+always begin 
+	#5 clock =~clock;
+end
+ syn_counter U_counter(
+	clock,
+	reset,
+	enable,
+	counter_out
+);
+endmodule
